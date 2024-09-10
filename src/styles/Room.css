@@ -1,0 +1,47 @@
+/* @import "../styles_copy/utils/utils"; */
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room {
+  border-radius: 6px;
+    padding: 30px 20px;
+    box-shadow: 0 2px 12px 0 lightgrey;
+    box-sizing: border-box;
+    margin: .8rem;
+    transition: transform 0.3s;
+
+    &:hover{
+      transform: scale(1.05);
+    box-shadow: 0 2px 12px 0 #EED8C7;
+    }
+}
+  .title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  .room .container {
+    border: 1px solid #EEE;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #000;
+    border-radius: 6px;
+  }
+
+  .icon {
+    margin-left: auto;
+    font-size: 8rem;
+    color: rgb(81, 173, 0);
+  }
+    /* @include tablet-view {
+      font-size: 5rem;
+    }
+
+    @include mobile-view {
+      font-size: 4rem;
+    }
+  } */

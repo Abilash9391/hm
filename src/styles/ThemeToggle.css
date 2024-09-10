@@ -1,0 +1,23 @@
+/* src/ThemeToggle.css */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .theme-toggle:hover {
+    color: #555;
+  }
+  
+  /* Dark mode styling */
+  .dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode .theme-toggle {
+    color: #f5f5f5;
+  }  

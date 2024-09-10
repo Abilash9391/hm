@@ -1,0 +1,26 @@
+@import "../styles_copy/utils/utils";
+
+  
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem;
+  padding: 3.5em;
+  box-sizing: border-box;
+
+  @include mobile-view{
+    flex-basis: 100%;
+  };
+}
+.column{
+  display: block;
+  flex-basis: 48%;
+  margin: 0 0 1em;
+}
+
+.Link {
+  text-decoration: none;
+}
+.container{
+  color: #EED8C7;
+}

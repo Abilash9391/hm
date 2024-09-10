@@ -1,0 +1,30 @@
+.device {
+    border-radius: 6px;
+    padding: 30px 20px;
+    box-shadow: 0 2px 12px 0 lightgrey;
+    box-sizing: border-box;
+    color: #000;
+  }
+  .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .device .deviceContainer {
+    border: 1px solid #EEE;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  .icon {
+    margin-left: 0px;
+    font-size: 8rem;
+    color: rgb(81, 173, 0);
+  }

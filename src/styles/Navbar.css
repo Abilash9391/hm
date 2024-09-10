@@ -1,0 +1,64 @@
+.Header {
+    box-shadow: 0 2px 12px 0 lightgrey;
+    background: #fff;
+    padding: 25px 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+    .HeaderContainer {
+      display: flex;
+      max-width: 1200px;;
+      margin: auto;
+    }
+  
+    .AppName {
+      font-weight:bolder;
+      font-size: 1.3rem;
+      text-decoration: none;
+  
+      &::after {
+        content: " ";
+        margin-left: 10px;
+        border-right: 1px solid #000;
+      }
+    }
+  
+    .Navigation .NavLink{
+      margin-top: auto;
+      text-decoration: none;
+    }
+    .NavLink{
+        text-decoration: none;
+        color: #000;
+    }
+  
+    /* .MenuBtn {
+      display: none;
+      margin-left: auto;
+    } */
+  
+    /* @include mobile-view {
+      .Navigation {
+        display: none;
+      }
+  
+      .MenuBtn {
+        display: block;
+      }
+    } */
+  
+
+
+
+/* a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.theme{
+    margin-left: auto;
+} */
